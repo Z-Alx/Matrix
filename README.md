@@ -40,7 +40,7 @@ sudo docker run -it --rm \
 
 Create file .env and add text
 ```
-touch /opt/matrix/.env\
+touch /opt/matrix/.env
 ```
 
 Change credential
@@ -55,7 +55,7 @@ Add the Postgres config to homeserver
 sudo nano /opt/matrix/synapse/homeserver.yaml
 ```
 
-add
+Change section database
 ```yaml
 ...
 database:
